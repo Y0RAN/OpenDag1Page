@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fellix, Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #2adc5c;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #02347c;
+    padding: 35px 20px;
+    height: 400px;
+    padding-bottom: 120px;
+
+}
+
+.top-bar img {
+    width: 100px;
+}
+
+
+.middle {
+    padding-top: 60px;
+    display: flex;
+}
+
+.about-opleiding {
+    display: flex;
+    justify-content: left;    
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.about-opleiding h1 {
+    color: #000;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-opleiding h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.middle img {
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.middle .text-block {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.text-block h1 {
+    font-size: 50px;
+}
+
+.text-block h2 {
+    font-size: 32px;
+}
+
+.main-blocks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    
+
+}
+
+.info-block {
+    background-color: #2adc5c;
+    height: 400px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.info-block h1 {
+    margin-bottom: 15px;
+
+}
+
+.info-block h2 {
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.block-left {   
+    /* display: flex; */
+    flex-direction: row-reverse;
+    background-color: #02347c;
+    justify-content: space-between;
+
+}
+
+.block-text {
+    padding: 30px;
+}
+
+.block-text h2 b{
+    font-weight: 650;
+}
+
+.info-block img {
+    width: 600px;
+    height: 400px;
+}
+
+footer {
+    background-color: #02347c;
+    margin-top: 100px;
+    padding: 35px 20px;
+}
