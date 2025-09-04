@@ -85,7 +85,8 @@ header {
 
 .info-block {
     background-color: #2adc5c;
-    height: 400px;
+    min-height: 400px;
+    max-height: 600px;
     display: flex;
     margin-bottom: 100px;
 }
@@ -106,6 +107,8 @@ header {
     flex-direction: row-reverse;
     background-color: #02347c;
     justify-content: space-between;
+    min-height: 400px;
+    max-height: 600px;
 
 }
 
